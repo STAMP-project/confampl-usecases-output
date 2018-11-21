@@ -1,0 +1,8 @@
+---
+reporting:
+- module: final-stats
+  dump-xml: aggregate-results.xml
+  summary: false
+  percentiles: false
+  failed-labels: false
+  test-duration: false

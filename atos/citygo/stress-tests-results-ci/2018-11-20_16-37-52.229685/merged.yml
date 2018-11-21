@@ -1,0 +1,13 @@
+---
+execution:
+- executor: jmeter
+  scenario:
+    script: citygo.jmx
+reporting:
+- dump-xml: aggregate-results.xml
+  failed-labels: false
+  module: final-stats
+  percentiles: false
+  summary: false
+  test-duration: false
+

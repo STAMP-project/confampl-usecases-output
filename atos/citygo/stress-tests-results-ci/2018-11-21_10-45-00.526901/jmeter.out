@@ -1,0 +1,5 @@
+Created the tree successfully using /var/jenkins_home/workspace/citygo/Tests/citygo_tests/modified_citygo.jmx
+Starting the test @ Wed Nov 21 10:45:07 UTC 2018 (1542797107785)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+Tidying up ...    @ Wed Nov 21 10:45:37 UTC 2018 (1542797137372)
+... end of run

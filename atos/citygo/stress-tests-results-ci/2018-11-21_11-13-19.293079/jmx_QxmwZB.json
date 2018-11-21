@@ -1,0 +1,10 @@
+{
+ "execution": [
+  {
+   "scenario": {
+    "script": "citygo.jmx"
+   }, 
+   "executor": "jmeter"
+  }
+ ]
+}

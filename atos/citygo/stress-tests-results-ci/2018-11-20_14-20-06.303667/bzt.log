@@ -1,0 +1,205 @@
+[2018-11-20 14:20:06,212 INFO root] Taurus CLI Tool v1.13.1
+[2018-11-20 14:20:06,213 DEBUG root] Command-line options: {'verbose': None, 'no_system_configs': None, 'quiet': None, 'log': '/tmp/bzt_ypYpq2.log', 'option': None, 'aliases': []}
+[2018-11-20 14:20:06,213 DEBUG root] Python: CPython 2.7.13
+[2018-11-20 14:20:06,213 DEBUG root] OS: ('Linux', 'supersede.es.atos.net', '3.10.0-862.11.6.el7.x86_64', '#1 SMP Tue Aug 14 21:49:04 UTC 2018', 'x86_64', '')
+[2018-11-20 14:20:06,214 DEBUG root] Adding JMX shorthand config for: ['citygo.jmx']
+[2018-11-20 14:20:06,216 DEBUG root] Dumping JSON config into /tmp/jmx_ScFVA5.json
+[2018-11-20 14:20:06,216 INFO root] Starting with configs: ['/var/jenkins_home/workspace/citygo/Tests/citygo_tests/jenkins-report.yml', '/tmp/jmx_ScFVA5.json']
+[2018-11-20 14:20:06,216 DEBUG root] Using personal config: /root/.bzt-rc
+[2018-11-20 14:20:06,216 INFO Engine] Configuring...
+[2018-11-20 14:20:06,217 DEBUG Engine] No machine configs dir: /var/jenkins_home/workspace/citygo/taurus-venv/etc/bzt.d
+[2018-11-20 14:20:06,217 DEBUG Engine] Base configs list: ['/var/jenkins_home/workspace/citygo/taurus-venv/local/lib/python2.7/site-packages/bzt/resources/base-config.yml']
+[2018-11-20 14:20:06,217 DEBUG Engine.Configuration] Configs: ['/var/jenkins_home/workspace/citygo/taurus-venv/local/lib/python2.7/site-packages/bzt/resources/base-config.yml']
+[2018-11-20 14:20:06,218 DEBUG Engine.Configuration] Reading /var/jenkins_home/workspace/citygo/taurus-venv/local/lib/python2.7/site-packages/bzt/resources/base-config.yml as YAML
+[2018-11-20 14:20:06,280 DEBUG Engine] User configs list: ['/root/.bzt-rc', '/var/jenkins_home/workspace/citygo/Tests/citygo_tests/jenkins-report.yml', '/tmp/jmx_ScFVA5.json']
+[2018-11-20 14:20:06,280 DEBUG Engine.Configuration] Configs: ['/root/.bzt-rc', '/var/jenkins_home/workspace/citygo/Tests/citygo_tests/jenkins-report.yml', '/tmp/jmx_ScFVA5.json']
+[2018-11-20 14:20:06,281 DEBUG Engine.Configuration] Reading /root/.bzt-rc as YAML
+[2018-11-20 14:20:06,287 DEBUG Engine.Configuration] Reading /var/jenkins_home/workspace/citygo/Tests/citygo_tests/jenkins-report.yml as YAML
+[2018-11-20 14:20:06,289 DEBUG Engine.Configuration] Reading /tmp/jmx_ScFVA5.json as YAML
+[2018-11-20 14:20:06,291 DEBUG Engine.Configuration] Configs: ['/root/.bzt-rc', '/var/jenkins_home/workspace/citygo/Tests/citygo_tests/jenkins-report.yml', '/tmp/jmx_ScFVA5.json']
+[2018-11-20 14:20:06,292 DEBUG Engine.Configuration] Reading /root/.bzt-rc as YAML
+[2018-11-20 14:20:06,298 DEBUG Engine.Configuration] Reading /var/jenkins_home/workspace/citygo/Tests/citygo_tests/jenkins-report.yml as YAML
+[2018-11-20 14:20:06,300 DEBUG Engine.Configuration] Reading /tmp/jmx_ScFVA5.json as YAML
+[2018-11-20 14:20:06,303 DEBUG Engine] Requesting updates info: http://gettaurus.org/updates/?version=1.13.1&installID=jenkins-90b11c1dd326
+[2018-11-20 14:20:06,303 DEBUG HTTPClient] Making HTTP request GET http://gettaurus.org/updates/?version=1.13.1&installID=jenkins-90b11c1dd326
+[2018-11-20 14:20:06,304 INFO Engine] Artifacts dir: /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667
+[2018-11-20 14:20:06,310 DEBUG Engine] New artifact filename: /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/effective
+[2018-11-20 14:20:06,315 DEBUG urllib3.connectionpool] Starting new HTTP connection (1): gettaurus.org:80
+[2018-11-20 14:20:06,315 DEBUG Engine.Configuration] Dumping YAML config into /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/effective.yml
+[2018-11-20 14:20:06,354 DEBUG Engine.Configuration] Dumping JSON config into /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/effective.json
+[2018-11-20 14:20:06,355 DEBUG Engine] New artifact filename: /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/merged.yml
+[2018-11-20 14:20:06,355 DEBUG Engine.Configuration] Dumping YAML config into /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/merged.yml
+[2018-11-20 14:20:06,358 DEBUG Engine] New artifact filename: /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/merged.json
+[2018-11-20 14:20:06,358 DEBUG Engine.Configuration] Dumping JSON config into /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/merged.json
+[2018-11-20 14:20:06,359 DEBUG Engine] Add existing artifact (move=False): /var/jenkins_home/workspace/citygo/Tests/citygo_tests/jenkins-report.yml
+[2018-11-20 14:20:06,359 DEBUG Engine] Copying /var/jenkins_home/workspace/citygo/Tests/citygo_tests/jenkins-report.yml to /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/jenkins-report.yml
+[2018-11-20 14:20:06,360 DEBUG Engine] Add existing artifact (move=False): /tmp/jmx_ScFVA5.json
+[2018-11-20 14:20:06,360 DEBUG Engine] Copying /tmp/jmx_ScFVA5.json to /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/jmx_ScFVA5.json
+[2018-11-20 14:20:06,360 DEBUG Engine.Environment] Replace 'TAURUS_ARTIFACTS_DIR' in environment
+[2018-11-20 14:20:06,362 DEBUG root] Closing log handler: /tmp/bzt_ypYpq2.log
+[2018-11-20 14:20:06,363 DEBUG root] Switched writing logs to /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/bzt.log
+[2018-11-20 14:20:06,363 DEBUG root] Linting config
+[2018-11-20 14:20:06,368 INFO Engine] Preparing...
+[2018-11-20 14:20:06,368 DEBUG Engine] Module config: consolidator {'class': u'bzt.modules.aggregator.ConsolidatingAggregator'}
+[2018-11-20 14:20:06,368 DEBUG root] Importing module: bzt.modules.aggregator
+[2018-11-20 14:20:06,524 DEBUG urllib3.connectionpool] http://gettaurus.org:80 "GET /updates/?version=1.13.1&installID=jenkins-90b11c1dd326 HTTP/1.1" 200 60
+[2018-11-20 14:20:06,578 DEBUG Engine] Taurus updates info: {u'needsUpgrade': False, u'latest': u'1.13.1'}
+[2018-11-20 14:20:06,584 DEBUG Engine] Installation is up-to-date
+[2018-11-20 14:20:06,663 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/var/jenkins_home/workspace/citygo/taurus-venv/local/lib/python2.7/site-packages/bzt/modules/aggregator.pyc'>
+[2018-11-20 14:20:06,663 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2018-11-20 14:20:06,664 DEBUG Engine] Module config: monitoring {'class': u'bzt.modules.monitoring.Monitoring'}
+[2018-11-20 14:20:06,664 DEBUG root] Importing module: bzt.modules.monitoring
+[2018-11-20 14:20:06,671 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/var/jenkins_home/workspace/citygo/taurus-venv/local/lib/python2.7/site-packages/bzt/modules/monitoring.pyc'>
+[2018-11-20 14:20:06,672 DEBUG Engine] Module config: local {'class': u'bzt.modules.provisioning.Local'}
+[2018-11-20 14:20:06,672 DEBUG root] Importing module: bzt.modules.provisioning
+[2018-11-20 14:20:06,672 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from '/var/jenkins_home/workspace/citygo/taurus-venv/local/lib/python2.7/site-packages/bzt/modules/provisioning.pyc'>
+[2018-11-20 14:20:06,673 DEBUG Engine] Module config: jmeter {'properties': {'jmeter.save.saveservice.autoflush': u'true', 'jmeter.save.saveservice.connect_time': u'true', 'summariser.name': u'', 'jmeterengine.force.system.exit': u'true'}, 'plugins': [u'jpgc-casutg', u'jpgc-dummy', u'jpgc-ffw', u'jpgc-fifo', u'jpgc-functions', u'jpgc-json', u'jpgc-perfmon', u'jpgc-prmctl', u'jpgc-tst'], 'class': u'bzt.modules.jmeter.JMeterExecutor', 'protocol-handlers': {'http': u'bzt.jmx.http.HTTPProtocolHandler'}}
+[2018-11-20 14:20:06,673 DEBUG root] Importing module: bzt.modules.jmeter
+[2018-11-20 14:20:06,705 DEBUG root] Loading class: 'JMeterExecutor' from <module 'bzt.modules.jmeter' from '/var/jenkins_home/workspace/citygo/taurus-venv/local/lib/python2.7/site-packages/bzt/modules/jmeter.pyc'>
+[2018-11-20 14:20:06,706 DEBUG Engine.local] Preparing executor: jmeter/140233051860624
+[2018-11-20 14:20:06,706 DEBUG Engine.jmeter] Extract {'script': u'citygo.jmx'} into scenarios
+[2018-11-20 14:20:06,707 DEBUG Engine] New artifact filename: /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/jmeter.log
+[2018-11-20 14:20:06,707 DEBUG Engine.jmeter] Checking if port 4445 is free
+[2018-11-20 14:20:06,708 DEBUG Engine.jmeter] Port 4445 is free
+[2018-11-20 14:20:06,708 DEBUG Engine.jmeter] Using port 4445 for management
+[2018-11-20 14:20:06,709 DEBUG Engine.jmeter] Additional properties: {'jmeter.save.saveservice.autoflush': u'true', 'jmeter.save.saveservice.connect_time': u'true', 'user.classpath': u'/var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667:/var/jenkins_home/workspace/citygo/Tests/citygo_tests', 'sampleresult.default.encoding': 'UTF-8', 'summariser.name': u'', 'jmeterengine.force.system.exit': u'true', 'jmeter.save.saveservice.timestamp_format': 'ms', 'jmeterengine.nongui.maxport': 4445, 'jmeterengine.nongui.port': 4445}
+[2018-11-20 14:20:06,709 DEBUG Engine] New artifact filename: /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/jmeter-bzt.properties
+[2018-11-20 14:20:06,711 DEBUG Engine.jmeter.JavaVM] Trying JavaVM: ['java', '-version']
+[2018-11-20 14:20:06,803 DEBUG Engine.jmeter.JavaVM] JavaVM output: openjdk version "1.8.0_181"
+OpenJDK Runtime Environment (build 1.8.0_181-8u181-b13-1~deb9u1-b13)
+OpenJDK 64-Bit Server VM (build 25.181-b13, mixed mode)
+[2018-11-20 14:20:06,803 DEBUG Engine.jmeter.TclLibrary] We don't need to check tcl library on this platform
+[2018-11-20 14:20:06,804 DEBUG Engine.jmeter.JMeter] Trying jmeter: /root/.bzt/jmeter-taurus/5.0/bin/jmeter.sh
+[2018-11-20 14:20:06,804 DEBUG bzt.utils] Executing shell: ['/root/.bzt/jmeter-taurus/5.0/bin/jmeter.sh', '-j', '/tmp/jmeterhVPa4llog', '--version'] at .
+[2018-11-20 14:20:08,186 DEBUG Engine.jmeter.JMeter] JMeter check:     _    ____   _    ____ _   _ _____       _ __  __ _____ _____ _____ ____     
+   / \  |  _ \ / \  / ___| | | | ____|     | |  \/  | ____|_   _| ____|  _ \   
+  / _ \ | |_) / _ \| |   | |_| |  _|    _  | | |\/| |  _|   | | |  _| | |_) | 
+ / ___ \|  __/ ___ \ |___|  _  | |___  | |_| | |  | | |___  | | | |___|  _ <  
+/_/   \_\_| /_/   \_\____|_| |_|_____|  \___/|_|  |_|_____| |_| |_____|_| \_\ 5.0 r1840935  
+
+Copyright (c) 1999-2018 The Apache Software Foundation
+
+ / None
+[2018-11-20 14:20:08,187 DEBUG Engine.jmeter] Load: LoadSpec(concurrency=None, throughput=None, ramp_up=None, hold=0, iterations=None, duration=None, steps=None)
+[2018-11-20 14:20:08,192 DEBUG Engine] New artifact filename: /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/kpi.jtl
+[2018-11-20 14:20:08,193 DEBUG Engine] New artifact filename: /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/error.jtl
+[2018-11-20 14:20:08,196 DEBUG Engine.jmeter.LoadSettingsProcessor] Thread group detection: duration not found, regular ThreadGroup will be used
+[2018-11-20 14:20:08,196 DEBUG Engine.jmeter.LoadSettingsProcessor] No iterations/concurrency/duration found, thread group modification is skipped
+[2018-11-20 14:20:08,196 DEBUG JMX] Saving JMX to: /var/jenkins_home/workspace/citygo/Tests/citygo_tests/modified_citygo.jmx
+[2018-11-20 14:20:08,197 DEBUG bzt.utils] Executing shell: ['/root/.bzt/jmeter-taurus/5.0/bin/PluginsManagerCMD.sh', 'install-for-jmx', u'/var/jenkins_home/workspace/citygo/Tests/citygo_tests/modified_citygo.jmx'] at .
+[2018-11-20 14:20:11,735 DEBUG Engine.jmeter.JMeter] Try to detect plugins for /var/jenkins_home/workspace/citygo/Tests/citygo_tests/modified_citygo.jmx
+2018-11-20 14:20:09,265 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+2018-11-20 14:20:09,322 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=jenkins-36737819774cf3dfafe25d8fc8ec145d-nongui
+2018-11-20 14:20:11,100 INFO o.j.r.PluginManager: Plugins Status: [jpgc-functions=2.1, jpgc-casutg=2.6, jpgc-dummy=0.2, jpgc-ffw=2.0, jpgc-fifo=0.2, jpgc-json=2.7, jpgc-prmctl=0.4, jpgc-perfmon=2.1, jpgc-plugins-manager=1.3, jpgc-tst=2.5, jmeter-core=5.0, jmeter-ftp=5.0, jmeter-http=5.0, jmeter-jdbc=5.0, jmeter-jms=5.0, jmeter-junit=5.0, jmeter-java=5.0, jmeter-ldap=5.0, jmeter-mail=5.0, jmeter-mongodb=5.0, jmeter-native=5.0, jmeter-tcp=5.0, jmeter-components=5.0]
+2018-11-20 14:20:11,103 INFO o.j.r.PluginManagerCMD: Params line is: /var/jenkins_home/workspace/citygo/Tests/citygo_tests/modified_citygo.jmx
+2018-11-20 14:20:11,498 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-11-20 14:20:11,509 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-11-20 14:20:11,515 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2018-11-20 14:20:11,628 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-11-20 14:20:11,628 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-11-20 14:20:11,628 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-11-20 14:20:11,629 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-11-20 14:20:11,629 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-11-20 14:20:11,629 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-11-20 14:20:11,663 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [table_visualizer_success]
+2018-11-20 14:20:11,663 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [table_visualizer_warning]
+2018-11-20 14:20:11,695 INFO o.j.r.PluginManager: Finishing without changes
+
+
+[2018-11-20 14:20:11,735 DEBUG Engine] New artifact filename: /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/jmeter.out
+[2018-11-20 14:20:11,735 DEBUG Engine] New artifact filename: /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/jmeter.err
+[2018-11-20 14:20:11,737 DEBUG Engine] Module config: final-stats {'class': u'bzt.modules.reporting.FinalStatus'}
+[2018-11-20 14:20:11,738 DEBUG root] Importing module: bzt.modules.reporting
+[2018-11-20 14:20:11,797 DEBUG easyprocess] version=0.2.3
+[2018-11-20 14:20:11,805 DEBUG pyvirtualdisplay] version=0.2.1
+[2018-11-20 14:20:11,815 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from '/var/jenkins_home/workspace/citygo/taurus-venv/local/lib/python2.7/site-packages/bzt/modules/reporting.pyc'>
+[2018-11-20 14:20:11,815 DEBUG Engine] Module config: console {'class': u'bzt.modules.console.ConsoleStatusReporter'}
+[2018-11-20 14:20:11,816 DEBUG root] Importing module: bzt.modules.console
+[2018-11-20 14:20:11,816 DEBUG root] Loading class: 'ConsoleStatusReporter' from <module 'bzt.modules.console' from '/var/jenkins_home/workspace/citygo/taurus-venv/local/lib/python2.7/site-packages/bzt/modules/console.pyc'>
+[2018-11-20 14:20:11,819 DEBUG Engine.Configuration] Dumping YAML config into /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/effective.yml
+[2018-11-20 14:20:11,857 DEBUG Engine.Configuration] Dumping JSON config into /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/effective.json
+[2018-11-20 14:20:11,859 INFO Engine] Starting...
+[2018-11-20 14:20:11,859 DEBUG Engine] Startup <bzt.modules.monitoring.Monitoring object at 0x7f8a8d449c90>
+[2018-11-20 14:20:11,859 DEBUG Engine] Startup <bzt.modules.aggregator.ConsolidatingAggregator object at 0x7f8a8aca4ad0>
+[2018-11-20 14:20:11,860 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x7f8a478ab050>
+[2018-11-20 14:20:11,860 DEBUG Engine] Startup <bzt.modules.console.ConsoleStatusReporter object at 0x7f8a8ac63890>
+[2018-11-20 14:20:11,860 INFO Engine.console] Waiting for results...
+[2018-11-20 14:20:11,860 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x7f8a8ac92950>
+[2018-11-20 14:20:11,860 DEBUG Engine] Startup <bzt.modules.provisioning.Local object at 0x7f8a8ad58550>
+[2018-11-20 14:20:11,861 DEBUG Engine.local] Delay setup for jmeter/citygo.jmx: 0(start-at) + 0(delay) = 0
+[2018-11-20 14:20:11,864 DEBUG Engine.Configuration] Dumping YAML config into /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/effective.yml
+[2018-11-20 14:20:11,901 DEBUG Engine.Configuration] Dumping JSON config into /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/effective.json
+[2018-11-20 14:20:11,903 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2018-11-20 14:20:11,903 DEBUG root] Leveled up log file verbosity
+[2018-11-20 14:20:11,904 DEBUG bzt.utils] Executing shell: ['/root/.bzt/jmeter-taurus/5.0/bin/jmeter.sh', '-n', '-t', u'/var/jenkins_home/workspace/citygo/Tests/citygo_tests/modified_citygo.jmx', '-j', '/var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/jmeter.log', '-q', '/var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/jmeter-bzt.properties'] at /var/jenkins_home/workspace/citygo/Tests/citygo_tests
+[2018-11-20 14:20:11,975 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2018-11-20 14:20:18,916 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 6s
+[2018-11-20 14:20:18,969 WARNING Engine] Please wait for graceful shutdown...
+[2018-11-20 14:20:18,969 DEBUG root] Leveled up log file verbosity
+[2018-11-20 14:20:18,969 INFO Engine] Shutting down...
+[2018-11-20 14:20:18,969 DEBUG Engine] Current stop reason: None
+[2018-11-20 14:20:18,970 DEBUG Engine.local] Shutdown jmeter/citygo.jmx
+[2018-11-20 14:20:18,973 DEBUG Engine.Configuration] Dumping YAML config into /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/effective.yml
+[2018-11-20 14:20:19,009 DEBUG Engine.Configuration] Dumping JSON config into /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/effective.json
+[2018-11-20 14:20:19,011 INFO Engine] Post-processing...
+[2018-11-20 14:20:19,011 DEBUG Engine.local] Post-process jmeter/citygo.jmx
+[2018-11-20 14:20:19,011 DEBUG Engine] Add existing artifact (move=True): /var/jenkins_home/workspace/citygo/Tests/citygo_tests/modified_citygo.jmx
+[2018-11-20 14:20:19,012 DEBUG Engine] Moving /var/jenkins_home/workspace/citygo/Tests/citygo_tests/modified_citygo.jmx to /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/modified_citygo.jmx
+[2018-11-20 14:20:19,012 DEBUG Engine.jmeter.JTLErrorsReader.FileReader] Reading: /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/error.jtl
+[2018-11-20 14:20:19,012 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader.FileReader] Reading: /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/kpi.jtl
+[2018-11-20 14:20:19,012 DEBUG Engine.jmeter.JTLReader] Buffer len: 2; Known errors count: 0
+[2018-11-20 14:20:19,013 DEBUG Engine.jmeter.JTLReader] Aggregating: 1542723617
+[2018-11-20 14:20:19,017 DEBUG Engine.jmeter.JTLReader] Aggregating: 1542723618
+[2018-11-20 14:20:19,019 DEBUG Engine.consolidator] Consolidator buffer[4]: [1542723617, 1542723618, 1542723614, 1542723615]
+[2018-11-20 14:20:19,019 DEBUG Engine.consolidator] Merging into 1542723614
+[2018-11-20 14:20:19,019 DEBUG Engine.consolidator] Merging 1542723614
+[2018-11-20 14:20:19,021 DEBUG Engine.consolidator] Processed datapoint: 1542723614/None
+[2018-11-20 14:20:19,021 DEBUG Engine.consolidator] Merging into 1542723615
+[2018-11-20 14:20:19,022 DEBUG Engine.consolidator] Merging 1542723615
+[2018-11-20 14:20:19,023 DEBUG Engine.consolidator] Processed datapoint: 1542723615/None
+[2018-11-20 14:20:19,024 DEBUG Engine.consolidator] Merging into 1542723617
+[2018-11-20 14:20:19,024 DEBUG Engine.consolidator] Merging 1542723617
+[2018-11-20 14:20:19,027 DEBUG Engine.consolidator] Processed datapoint: 1542723617/None
+[2018-11-20 14:20:19,028 DEBUG Engine.consolidator] Merging into 1542723618
+[2018-11-20 14:20:19,028 DEBUG Engine.consolidator] Merging 1542723618
+[2018-11-20 14:20:19,031 DEBUG Engine.consolidator] Processed datapoint: 1542723618/None
+[2018-11-20 14:20:19,031 INFO Engine.final-stats] Test duration: 0:00:07
+[2018-11-20 14:20:19,031 INFO Engine.final-stats] Samples count: 20, 0.00% failures
+[2018-11-20 14:20:19,032 INFO Engine.final-stats] Average times: total 0.870, latency 0.770, connect 0.002
+[2018-11-20 14:20:19,035 INFO Engine.final-stats] Percentiles:
++---------------+---------------+
+| Percentile, % | Resp. Time, s |
++---------------+---------------+
+|           0.0 |         0.093 |
+|          50.0 |         0.288 |
+|          90.0 |         2.601 |
+|          95.0 |         2.801 |
+|          99.0 |         2.881 |
+|          99.9 |         2.881 |
+|         100.0 |         2.881 |
++---------------+---------------+
+[2018-11-20 14:20:19,037 INFO Engine.final-stats] Request label stats:
++------------------------------------+--------+---------+--------+-------+
+| label                              | status |    succ | avg_rt | error |
++------------------------------------+--------+---------+--------+-------+
+| HTTP Request forecast              |   OK   | 100.00% |  2.576 |       |
+| HTTP request station/bus/realtime/ |   OK   | 100.00% |  0.626 |       |
+| HTTP request station/cycle         |   OK   | 100.00% |  0.160 |       |
+| HTTP request station/parking/      |   OK   | 100.00% |  0.120 |       |
++------------------------------------+--------+---------+--------+-------+
+[2018-11-20 14:20:19,038 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2018-11-20 14:20:19,039 INFO Engine.final-stats] Request label stats:
++------------------------------------+--------+---------+--------+-------+
+| label                              | status |    succ | avg_rt | error |
++------------------------------------+--------+---------+--------+-------+
+| HTTP Request forecast              |   OK   | 100.00% |  2.576 |       |
+| HTTP request station/bus/realtime/ |   OK   | 100.00% |  0.626 |       |
+| HTTP request station/cycle         |   OK   | 100.00% |  0.160 |       |
+| HTTP request station/parking/      |   OK   | 100.00% |  0.120 |       |
++------------------------------------+--------+---------+--------+-------+
+[2018-11-20 14:20:19,039 INFO Engine.final-stats] Dumping final status as XML: aggregate-results.xml
+[2018-11-20 14:20:19,120 DEBUG Engine.Configuration] Dumping YAML config into /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/effective.yml
+[2018-11-20 14:20:19,159 DEBUG Engine.Configuration] Dumping JSON config into /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/effective.json
+[2018-11-20 14:20:19,160 INFO root] Artifacts dir: /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667
+[2018-11-20 14:20:19,160 INFO root] Done performing with code: 0
+[2018-11-20 14:20:19,161 DEBUG root] Closing log handler: /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_14-20-06.303667/bzt.log

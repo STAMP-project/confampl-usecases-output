@@ -1,0 +1,20 @@
+{
+ "execution": [
+  {
+   "scenario": {
+    "script": "citygo.jmx"
+   }, 
+   "executor": "jmeter"
+  }
+ ], 
+ "reporting": [
+  {
+   "module": "final-stats", 
+   "summary": false, 
+   "test-duration": false, 
+   "percentiles": false, 
+   "dump-xml": "aggregate-results.xml", 
+   "failed-labels": false
+  }
+ ]
+}

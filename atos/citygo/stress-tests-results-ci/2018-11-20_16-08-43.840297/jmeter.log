@@ -1,0 +1,265 @@
+2018-11-20 16:08:49,372 INFO o.a.j.u.JMeterUtils: Setting Locale to en
+2018-11-20 16:08:49,392 INFO o.a.j.JMeter: Loading user properties from: /root/.bzt/jmeter-taurus/5.0/bin/user.properties
+2018-11-20 16:08:49,393 INFO o.a.j.JMeter: Loading system properties from: /root/.bzt/jmeter-taurus/5.0/bin/system.properties
+2018-11-20 16:08:49,393 INFO o.a.j.JMeter: Loading additional properties from: /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_16-08-43.840297/jmeter-bzt.properties
+2018-11-20 16:08:49,400 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2018-11-20 16:08:49,401 INFO o.a.j.JMeter: Version 5.0 r1840935
+2018-11-20 16:08:49,401 INFO o.a.j.JMeter: java.version=1.8.0_181
+2018-11-20 16:08:49,401 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2018-11-20 16:08:49,401 INFO o.a.j.JMeter: os.name=Linux
+2018-11-20 16:08:49,401 INFO o.a.j.JMeter: os.arch=amd64
+2018-11-20 16:08:49,401 INFO o.a.j.JMeter: os.version=3.10.0-862.11.6.el7.x86_64
+2018-11-20 16:08:49,401 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-11-20 16:08:49,401 INFO o.a.j.JMeter: Max memory     =7445413888
+2018-11-20 16:08:49,402 INFO o.a.j.JMeter: Available Processors =24
+2018-11-20 16:08:49,409 INFO o.a.j.JMeter: Default Locale=English
+2018-11-20 16:08:49,409 INFO o.a.j.JMeter: JMeter  Locale=English
+2018-11-20 16:08:49,409 INFO o.a.j.JMeter: JMeterHome=/root/.bzt/jmeter-taurus/5.0
+2018-11-20 16:08:49,409 INFO o.a.j.JMeter: user.dir  =/var/jenkins_home/workspace/citygo/Tests/citygo_tests
+2018-11-20 16:08:49,410 INFO o.a.j.JMeter: PWD       =/var/jenkins_home/workspace/citygo/Tests/citygo_tests
+2018-11-20 16:08:49,411 INFO o.a.j.JMeter: IP: 192.168.145.13 Name: supersede.es.atos.net FullName: supersede.es.atos.net
+2018-11-20 16:08:49,411 INFO o.a.j.JMeter: user.classpath=/var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_16-08-43.840297:/var/jenkins_home/workspace/citygo/Tests/citygo_tests
+2018-11-20 16:08:49,411 INFO o.a.j.JMeter: Adding to classpath and loader: /var/jenkins_home/workspace/citygo/Tests/citygo_tests/2018-11-20_16-08-43.840297
+2018-11-20 16:08:49,413 INFO o.a.j.JMeter: Adding to classpath and loader: /var/jenkins_home/workspace/citygo/Tests/citygo_tests
+2018-11-20 16:08:49,419 INFO o.a.j.s.FileServer: Default base='/var/jenkins_home/workspace/citygo/Tests/citygo_tests'
+2018-11-20 16:08:49,426 INFO o.a.j.s.FileServer: Set new base='/var/jenkins_home/workspace/citygo/Tests/citygo_tests'
+2018-11-20 16:08:49,602 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-11-20 16:08:49,620 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-11-20 16:08:49,627 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2018-11-20 16:08:49,636 INFO o.a.j.s.SaveService: Loading file: /var/jenkins_home/workspace/citygo/Tests/citygo_tests/modified_citygo.jmx
+2018-11-20 16:08:49,702 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-11-20 16:08:49,703 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-11-20 16:08:49,703 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-11-20 16:08:49,703 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-11-20 16:08:49,703 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-11-20 16:08:49,703 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-11-20 16:08:49,758 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-11-20 16:08:49,759 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-11-20 16:08:49,759 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-11-20 16:08:49,767 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-11-20 16:08:49,767 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-11-20 16:08:50,330 INFO o.a.j.JMeter: Running test (1542730130330)
+2018-11-20 16:08:50,423 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Grupo de Hilos
+2018-11-20 16:08:50,424 INFO o.a.j.e.StandardJMeterEngine: Starting 70 threads for group Grupo de Hilos.
+2018-11-20 16:08:50,424 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-11-20 16:08:50,424 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=70 ramp-up=10 perThread=142.85715 delayedStart=false
+2018-11-20 16:08:50,433 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-1
+2018-11-20 16:08:50,461 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = supersede.es.atos.net
+2018-11-20 16:08:50,471 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-11-20 16:08:50,471 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-11-20 16:08:50,475 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-11-20 16:08:50,478 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-11-20 16:08:50,478 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2018-11-20 16:08:50,478 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-11-20 16:08:50,479 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-11-20 16:08:50,576 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-2
+2018-11-20 16:08:50,719 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-3
+2018-11-20 16:08:50,862 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-4
+2018-11-20 16:08:51,007 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-5
+2018-11-20 16:08:51,151 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-6
+2018-11-20 16:08:51,294 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-7
+2018-11-20 16:08:51,439 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-8
+2018-11-20 16:08:51,533 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-2
+2018-11-20 16:08:51,533 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-2
+2018-11-20 16:08:51,582 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-9
+2018-11-20 16:08:51,726 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-10
+2018-11-20 16:08:51,870 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-11
+2018-11-20 16:08:52,013 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-12
+2018-11-20 16:08:52,157 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-13
+2018-11-20 16:08:52,301 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-14
+2018-11-20 16:08:52,446 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-15
+2018-11-20 16:08:52,589 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-16
+2018-11-20 16:08:52,732 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-17
+2018-11-20 16:08:52,876 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-18
+2018-11-20 16:08:53,019 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-19
+2018-11-20 16:08:53,163 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-20
+2018-11-20 16:08:53,307 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-21
+2018-11-20 16:08:53,450 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-22
+2018-11-20 16:08:53,538 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-10
+2018-11-20 16:08:53,538 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-10
+2018-11-20 16:08:53,593 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-23
+2018-11-20 16:08:53,737 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-24
+2018-11-20 16:08:53,881 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-25
+2018-11-20 16:08:54,025 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-26
+2018-11-20 16:08:54,167 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-27
+2018-11-20 16:08:54,194 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-3
+2018-11-20 16:08:54,195 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-3
+2018-11-20 16:08:54,311 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-28
+2018-11-20 16:08:54,448 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-1
+2018-11-20 16:08:54,448 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-1
+2018-11-20 16:08:54,455 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-29
+2018-11-20 16:08:54,597 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-30
+2018-11-20 16:08:54,740 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-31
+2018-11-20 16:08:54,885 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-32
+2018-11-20 16:08:55,027 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-33
+2018-11-20 16:08:55,172 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-34
+2018-11-20 16:08:55,314 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-35
+2018-11-20 16:08:55,458 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-36
+2018-11-20 16:08:55,462 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-4
+2018-11-20 16:08:55,462 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-4
+2018-11-20 16:08:55,600 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-37
+2018-11-20 16:08:55,744 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-38
+2018-11-20 16:08:55,888 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-39
+2018-11-20 16:08:55,929 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-13
+2018-11-20 16:08:55,929 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-13
+2018-11-20 16:08:55,983 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-15
+2018-11-20 16:08:55,983 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-15
+2018-11-20 16:08:56,030 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-40
+2018-11-20 16:08:56,174 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-41
+2018-11-20 16:08:56,317 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-42
+2018-11-20 16:08:56,461 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-43
+2018-11-20 16:08:56,604 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-44
+2018-11-20 16:08:56,746 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-45
+2018-11-20 16:08:56,890 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-46
+2018-11-20 16:08:57,033 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-47
+2018-11-20 16:08:57,176 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-48
+2018-11-20 16:08:57,320 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-49
+2018-11-20 16:08:57,463 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-50
+2018-11-20 16:08:57,606 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-51
+2018-11-20 16:08:57,749 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-52
+2018-11-20 16:08:57,893 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-53
+2018-11-20 16:08:58,036 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-54
+2018-11-20 16:08:58,180 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-55
+2018-11-20 16:08:58,323 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-56
+2018-11-20 16:08:58,467 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-57
+2018-11-20 16:08:58,610 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-58
+2018-11-20 16:08:58,752 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-59
+2018-11-20 16:08:58,897 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-60
+2018-11-20 16:08:59,039 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-61
+2018-11-20 16:08:59,183 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-62
+2018-11-20 16:08:59,326 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-63
+2018-11-20 16:08:59,469 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-64
+2018-11-20 16:08:59,484 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-27
+2018-11-20 16:08:59,484 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-27
+2018-11-20 16:08:59,612 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-65
+2018-11-20 16:08:59,755 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-66
+2018-11-20 16:08:59,898 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-67
+2018-11-20 16:09:00,042 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-68
+2018-11-20 16:09:00,186 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-69
+2018-11-20 16:09:00,328 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-70
+2018-11-20 16:09:02,306 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-12
+2018-11-20 16:09:02,306 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-12
+2018-11-20 16:09:03,345 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-36
+2018-11-20 16:09:03,345 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-36
+2018-11-20 16:09:04,179 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-26
+2018-11-20 16:09:04,180 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-26
+2018-11-20 16:09:04,286 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-16
+2018-11-20 16:09:04,286 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-16
+2018-11-20 16:09:04,474 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-5
+2018-11-20 16:09:04,474 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-5
+2018-11-20 16:09:06,453 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-6
+2018-11-20 16:09:06,454 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-6
+2018-11-20 16:09:07,963 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-32
+2018-11-20 16:09:07,963 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-32
+2018-11-20 16:09:08,810 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-34
+2018-11-20 16:09:08,810 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-34
+2018-11-20 16:09:09,001 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-46
+2018-11-20 16:09:09,001 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-46
+2018-11-20 16:09:09,194 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-44
+2018-11-20 16:09:09,194 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-44
+2018-11-20 16:09:09,359 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-39
+2018-11-20 16:09:09,360 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-39
+2018-11-20 16:09:09,734 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-38
+2018-11-20 16:09:09,734 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-38
+2018-11-20 16:09:09,740 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-9
+2018-11-20 16:09:09,740 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-9
+2018-11-20 16:09:09,901 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-48
+2018-11-20 16:09:09,901 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-48
+2018-11-20 16:09:10,039 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-40
+2018-11-20 16:09:10,039 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-40
+2018-11-20 16:09:10,195 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-7
+2018-11-20 16:09:10,195 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-7
+2018-11-20 16:09:10,507 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-58
+2018-11-20 16:09:10,507 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-58
+2018-11-20 16:09:10,599 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-42
+2018-11-20 16:09:10,600 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-42
+2018-11-20 16:09:10,654 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-43
+2018-11-20 16:09:10,654 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-43
+2018-11-20 16:09:10,809 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-50
+2018-11-20 16:09:10,809 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-50
+2018-11-20 16:09:10,917 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-28
+2018-11-20 16:09:10,918 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-28
+2018-11-20 16:09:11,033 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-53
+2018-11-20 16:09:11,033 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-53
+2018-11-20 16:09:11,033 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-23
+2018-11-20 16:09:11,033 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-23
+2018-11-20 16:09:11,289 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-51
+2018-11-20 16:09:11,289 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-51
+2018-11-20 16:09:11,564 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-56
+2018-11-20 16:09:11,564 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-56
+2018-11-20 16:09:11,616 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-60
+2018-11-20 16:09:11,616 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-60
+2018-11-20 16:09:11,630 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-8
+2018-11-20 16:09:11,631 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-8
+2018-11-20 16:09:11,723 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-45
+2018-11-20 16:09:11,723 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-45
+2018-11-20 16:09:11,790 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-54
+2018-11-20 16:09:11,790 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-54
+2018-11-20 16:09:11,801 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-57
+2018-11-20 16:09:11,801 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-57
+2018-11-20 16:09:11,845 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-59
+2018-11-20 16:09:11,845 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-59
+2018-11-20 16:09:12,450 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-52
+2018-11-20 16:09:12,450 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-52
+2018-11-20 16:09:13,097 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-18
+2018-11-20 16:09:13,098 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-18
+2018-11-20 16:09:13,273 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-63
+2018-11-20 16:09:13,273 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-63
+2018-11-20 16:09:13,428 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-47
+2018-11-20 16:09:13,429 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-47
+2018-11-20 16:09:13,531 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-21
+2018-11-20 16:09:13,531 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-21
+2018-11-20 16:09:13,827 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-29
+2018-11-20 16:09:13,827 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-29
+2018-11-20 16:09:13,896 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-19
+2018-11-20 16:09:13,896 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-19
+2018-11-20 16:09:14,030 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-25
+2018-11-20 16:09:14,031 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-25
+2018-11-20 16:09:14,100 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-41
+2018-11-20 16:09:14,100 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-41
+2018-11-20 16:09:14,122 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-64
+2018-11-20 16:09:14,123 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-64
+2018-11-20 16:09:14,409 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-20
+2018-11-20 16:09:14,409 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-20
+2018-11-20 16:09:14,498 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-61
+2018-11-20 16:09:14,499 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-61
+2018-11-20 16:09:14,510 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-62
+2018-11-20 16:09:14,510 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-62
+2018-11-20 16:09:14,551 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-31
+2018-11-20 16:09:14,551 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-31
+2018-11-20 16:09:14,708 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-24
+2018-11-20 16:09:14,708 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-24
+2018-11-20 16:09:14,810 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-70
+2018-11-20 16:09:14,810 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-70
+2018-11-20 16:09:14,833 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-68
+2018-11-20 16:09:14,834 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-68
+2018-11-20 16:09:14,853 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-22
+2018-11-20 16:09:14,854 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-22
+2018-11-20 16:09:14,920 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-67
+2018-11-20 16:09:14,920 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-67
+2018-11-20 16:09:14,991 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-66
+2018-11-20 16:09:14,991 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-66
+2018-11-20 16:09:15,592 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-14
+2018-11-20 16:09:15,593 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-14
+2018-11-20 16:09:15,707 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-11
+2018-11-20 16:09:15,707 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-11
+2018-11-20 16:09:15,829 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-37
+2018-11-20 16:09:15,829 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-37
+2018-11-20 16:09:16,001 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-17
+2018-11-20 16:09:16,001 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-17
+2018-11-20 16:09:16,109 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-49
+2018-11-20 16:09:16,110 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-49
+2018-11-20 16:09:16,261 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-35
+2018-11-20 16:09:16,261 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-35
+2018-11-20 16:09:16,631 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-30
+2018-11-20 16:09:16,631 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-30
+2018-11-20 16:09:16,812 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-33
+2018-11-20 16:09:16,812 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-33
+2018-11-20 16:09:16,827 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-55
+2018-11-20 16:09:16,827 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-55
+2018-11-20 16:09:16,848 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-69
+2018-11-20 16:09:16,848 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-65
+2018-11-20 16:09:16,848 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-69
+2018-11-20 16:09:16,848 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-65
+2018-11-20 16:09:16,848 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-11-20 16:09:16,850 INFO o.a.j.e.StandardJMeterEngine: Forced JVM shutdown requested at end of test

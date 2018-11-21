@@ -1,0 +1,21 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,bytes,grpThreads,allThreads,Latency,Hostname,Connect
+1542728003120,55,HTTP Request forecast   ,200,OK,Grupo de Hilos 1-1,true,690,1,1,45,supersede.es.atos.net,30
+1542728003195,10,HTTP Request forecast   ,200,OK,Grupo de Hilos 1-2,true,690,2,2,4,supersede.es.atos.net,1
+1542728003394,189,HTTP Request forecast   ,200,OK,Grupo de Hilos 1-3,true,690,3,3,18,supersede.es.atos.net,13
+1542728003176,479,HTTP request station/bus/realtime/,200,OK,Grupo de Hilos 1-1,true,43542,4,4,478,supersede.es.atos.net,0
+1542728003205,559,HTTP request station/bus/realtime/,200,OK,Grupo de Hilos 1-2,true,43542,4,4,557,supersede.es.atos.net,0
+1542728003595,169,HTTP Request forecast   ,200,OK,Grupo de Hilos 1-4,true,690,4,4,48,supersede.es.atos.net,1
+1542728003796,9,HTTP Request forecast   ,200,OK,Grupo de Hilos 1-5,true,690,5,5,3,supersede.es.atos.net,1
+1542728003583,337,HTTP request station/bus/realtime/,200,OK,Grupo de Hilos 1-3,true,43542,5,5,337,supersede.es.atos.net,0
+1542728003764,196,HTTP request station/parking/,200,OK,Grupo de Hilos 1-2,true,1914,5,5,196,supersede.es.atos.net,0
+1542728003960,177,HTTP request station/cycle,200,OK,Grupo de Hilos 1-2,true,4413,5,5,152,supersede.es.atos.net,0
+1542728003921,216,HTTP request station/parking/,200,OK,Grupo de Hilos 1-3,true,1914,5,5,193,supersede.es.atos.net,0
+1542728003806,365,HTTP request station/bus/realtime/,200,OK,Grupo de Hilos 1-5,true,43542,4,4,365,supersede.es.atos.net,0
+1542728003765,449,HTTP request station/bus/realtime/,200,OK,Grupo de Hilos 1-4,true,43542,4,4,449,supersede.es.atos.net,0
+1542728003655,568,HTTP request station/parking/,200,OK,Grupo de Hilos 1-1,true,1914,4,4,567,supersede.es.atos.net,0
+1542728004138,132,HTTP request station/cycle,200,OK,Grupo de Hilos 1-3,true,4413,4,4,132,supersede.es.atos.net,0
+1542728004171,106,HTTP request station/parking/,200,OK,Grupo de Hilos 1-5,true,1914,3,3,106,supersede.es.atos.net,0
+1542728004223,111,HTTP request station/cycle,200,OK,Grupo de Hilos 1-1,true,4413,3,3,111,supersede.es.atos.net,0
+1542728004214,146,HTTP request station/parking/,200,OK,Grupo de Hilos 1-4,true,1914,2,2,145,supersede.es.atos.net,0
+1542728004278,109,HTTP request station/cycle,200,OK,Grupo de Hilos 1-5,true,4413,2,2,109,supersede.es.atos.net,0
+1542728004360,109,HTTP request station/cycle,200,OK,Grupo de Hilos 1-4,true,4413,1,1,109,supersede.es.atos.net,0
