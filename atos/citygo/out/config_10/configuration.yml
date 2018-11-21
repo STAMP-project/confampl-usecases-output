@@ -1,0 +1,23 @@
+instances:
+  postgres_0:
+    configuration: {}
+    definition: postgres
+    feature_provider: ubuntu_0
+    service_providers: []
+  python_0:
+    configuration: {}
+    definition: python
+    service_providers: []
+  showcase_0:
+    configuration:
+      max_request_workers: 256
+      thread_limit: 64
+      threads_per_child: 16
+    definition: showcase
+    feature_provider: python_0
+    service_providers:
+    - postgres_0
+  ubuntu_0:
+    configuration: {}
+    definition: ubuntu
+    service_providers: []

@@ -1,0 +1,20 @@
+digraph Config {
+  node [shape="record",style="filled",fillcolor="white"];
+  subgraph cluster_1 {
+    label="container 1";
+    style="filled";
+    color="lightgrey";
+    postgres_0 [label="postgres"];
+    ubuntu_0 [label="ubuntu"];
+    postgres_0 -> ubuntu_0;
+  }
+  subgraph cluster_2 {
+    label="container 2";
+    style="filled";
+    color="lightgrey";
+    showcase_0 [label="{showcase|threads_per_child=32\lmax_request_workers=512\lthread_limit=64}"];
+    python_0 [label="python"];
+    showcase_0 -> python_0;
+  }
+  showcase_0 -> postgres_0;
+}
