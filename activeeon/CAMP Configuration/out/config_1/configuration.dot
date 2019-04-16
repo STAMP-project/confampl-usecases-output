@@ -1,0 +1,16 @@
+digraph Config {
+  node [shape="record",style="filled",fillcolor="white"];
+  subgraph cluster_1 {
+    label="container 1";
+    style="filled";
+    color="lightgrey";
+    proactivepg_0 [label="{proactivePG|version=PA-postgres}"];
+  }
+  subgraph cluster_2 {
+    label="container 2";
+    style="filled";
+    color="lightgrey";
+    databasepg_0 [label="{databasePG|version=DB-postgres}"];
+  }
+  proactivepg_0 -> databasepg_0;
+}

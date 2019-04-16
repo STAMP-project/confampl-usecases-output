@@ -1,0 +1,16 @@
+digraph Config {
+  node [shape="record",style="filled",fillcolor="white"];
+  subgraph cluster_1 {
+    label="container 1";
+    style="filled";
+    color="lightgrey";
+    databasems_0 [label="{databaseMS|version=DB-mysql}"];
+  }
+  subgraph cluster_2 {
+    label="container 2";
+    style="filled";
+    color="lightgrey";
+    proactivems_0 [label="{proactiveMS|version=PA-mysql}"];
+  }
+  proactivems_0 -> databasems_0;
+}

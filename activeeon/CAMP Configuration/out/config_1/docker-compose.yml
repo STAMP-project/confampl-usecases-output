@@ -1,0 +1,22 @@
+
+version: '2.1'
+
+services:
+
+  proactive:
+    build: ./images/proactivepg_0
+    ports:
+      - "8080:8080"
+    restart: always
+    links:
+      - database
+    depends_on:
+      - database
+
+  database:
+    build: ./images/databasepg_0
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=pouet123
+    restart: always
