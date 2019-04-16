@@ -1,6 +1,6 @@
 # CAMP Result with Proactive configuration for database support
 
-## Generate and execute configurations:
+## Generate and execute configurations
 - To checkout out how Camp is used and adapted for Proactive configuration, please follow the configuration steps as described in the [Readme file](CAMP_Configuration/README.md).
 The generated configurations are as below:
 <img src="CAMP_Configuration/out/Configurations.png"  align="center"
@@ -35,7 +35,7 @@ database_1   | ERROR:  operator does not exist: text ~~ bigint at character 1413
 database_1   | HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
 ```
 ## Conclusion
-- The failing tests in Config 2 are due to a wrong configuration of the Proactive server with the PostgresQL database. It is related to a wrong given field type to the PostgresQL DB. This miss-configuration was not possible to detect without the use of CAMP. 
+- The failing tests in Config 2 are due to a wrong configuration of the Proactive server with the PostgresQL database. It is related to a wrong given field type to the PostgresQL DB. This miss-configuration was detected thanks to CAMP usage.
 
 
 
