@@ -3,9 +3,8 @@
 ## Generate and execute configurations:
 - To checkout out how Camp is used and adapted for Proactive configuration, please follow the configuration steps as described in the [Readme file](CAMP_Configuration/README.md).
 The generated configurations are as below:
-![](CAMP_Configuration/out/Configurations.png)
-<img src="CAMP_Configuration/out/Configurations.png"  
-	title="Generated configurations" width="250" height="200" />
+<img src="CAMP_Configuration/out/Configurations.png"  align="center"
+	title="Generated configurations" width="350" height="300" />
 ## Failing system tests 
 - Our system tests related to GraphQL Rest API are executed across the two generated configurations with the following gradle configuration:
 ```
