@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.ow2.proactive.systemtests.test.rest.graphql.SchedulingApiGraphQlTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.ow2.proactive.systemtests.test.rest.graphql.SchedulingApiGraphQlTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.ow2.proactive.systemtests.test.rest.graphql.html">org.ow2.proactive.systemtests.test.rest.graphql</a> &gt; SchedulingApiGraphQlTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">7</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">5</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">38.696s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">28%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="testFetchingAllJobsWithExplicitFilterExpression"></a>
+<h3 class="failures">testFetchingAllJobsWithExplicitFilterExpression</h3>
+<span class="code">
+<pre>java.lang.NullPointerException
+	at org.ow2.proactive.systemtests.helper.scheduler.SystemTestGraphQlJobHelper.getField(SystemTestGraphQlJobHelper.java:75)
+	at org.ow2.proactive.systemtests.test.rest.graphql.SchedulingApiGraphQlTest.testFetchingAllJobsWithExplicitFilterExpression(SchedulingApiGraphQlTest.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="testFetchingBothCmdJobsWithVariables"></a>
+<h3 class="failures">testFetchingBothCmdJobsWithVariables</h3>
+<span class="code">
+<pre>java.lang.NullPointerException
+	at org.ow2.proactive.systemtests.helper.scheduler.SystemTestGraphQlJobHelper.getField(SystemTestGraphQlJobHelper.java:75)
+	at org.ow2.proactive.systemtests.test.rest.graphql.SchedulingApiGraphQlTest.testFetchingBothCmdJobsWithVariables(SchedulingApiGraphQlTest.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="testFetchingJobsByCmdVariableNameAndValue"></a>
+<h3 class="failures">testFetchingJobsByCmdVariableNameAndValue</h3>
+<span class="code">
+<pre>java.lang.NullPointerException
+	at org.ow2.proactive.systemtests.helper.scheduler.SystemTestGraphQlJobHelper.getField(SystemTestGraphQlJobHelper.java:75)
+	at org.ow2.proactive.systemtests.test.rest.graphql.SchedulingApiGraphQlTest.testFetchingJobsByCmdVariableNameAndValue(SchedulingApiGraphQlTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="testFetchingOneJobWithComplexVariablesExpression"></a>
+<h3 class="failures">testFetchingOneJobWithComplexVariablesExpression</h3>
+<span class="code">
+<pre>java.lang.NullPointerException
+	at org.ow2.proactive.systemtests.helper.scheduler.SystemTestGraphQlJobHelper.getField(SystemTestGraphQlJobHelper.java:75)
+	at org.ow2.proactive.systemtests.test.rest.graphql.SchedulingApiGraphQlTest.testFetchingOneJobWithComplexVariablesExpression(SchedulingApiGraphQlTest.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="testFetchingOneJobWithSpecificVariable"></a>
+<h3 class="failures">testFetchingOneJobWithSpecificVariable</h3>
+<span class="code">
+<pre>java.lang.NullPointerException
+	at org.ow2.proactive.systemtests.helper.scheduler.SystemTestGraphQlJobHelper.getField(SystemTestGraphQlJobHelper.java:75)
+	at org.ow2.proactive.systemtests.test.rest.graphql.SchedulingApiGraphQlTest.testFetchingOneJobWithSpecificVariable(SchedulingApiGraphQlTest.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testFetchingAllJobs</td>
+<td>4.599s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">testFetchingAllJobsWithExplicitFilterExpression</td>
+<td>4.679s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">testFetchingBothCmdJobsWithVariables</td>
+<td>4.498s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">testFetchingJobsByCmdVariableName</td>
+<td>5.385s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">testFetchingJobsByCmdVariableNameAndValue</td>
+<td>10.501s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">testFetchingOneJobWithComplexVariablesExpression</td>
+<td>4.634s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">testFetchingOneJobWithSpecificVariable</td>
+<td>4.400s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>================= Job 3252 logs =================
+[2019-03-08 08:09:00,023 1523093755 INFO             o.o.p.s.u.JobLogger] job 3252 submitted: name 'systest-simple_task', tasks '1', owner 'admin'
+[2019-03-08 08:09:00,731 lingThread INFO             o.o.p.s.u.JobLogger] job 3252 started
+
+================ Task 3252t0 logs =================
+[2019-03-08 08:09:00,290 38/RM_NODE INFO      o.o.p.r.s.SelectionManager] &quot;admin&quot; (pnp://cdc2921c4807:64738/Node1523093755/ActiveObject_org.ow2.proactive.scheduler.core.rmproxies.RMProxyActiveObject_32902) requested 1 nodes with ArbitraryTopologyDescriptor and will get 1 nodes  [totalNumberOfAliveNodesRightNow:3;freeNodes:3;filteredNodes:3;reordered after policy:3;selection script present:false;nodes filtered by selection script:3;selectedNodes:1]
+[2019-03-08 08:09:00,309 lingThread INFO            o.o.p.s.u.TaskLogger] task 3252t0 (simple_task) creating forked task launcher
+[2019-03-08 08:09:00,698 lingThread INFO            o.o.p.s.u.TaskLogger] task 3252t0 (simple_task) started on cdc2921c4807(node: local-LocalNodes-0_1)
+[2019-03-08 08:09:00,704 lingThread INFO            o.o.p.s.u.TaskLogger] task 3252t0 (simple_task) task started 3252t0
+
+Waiting for job with id : 3252 to have one of the following statuses : [[KILLED, FINISHED, STALLED, CANCELED, FAILED]], got : KILLED
+================= Job 3253 logs =================
+[2019-03-08 08:09:01,089 1523093755 INFO             o.o.p.s.u.JobLogger] job 3253 submitted: name 'echo-workflow', tasks '1', owner 'admin'
+[2019-03-08 08:09:01,360 lingThread INFO             o.o.p.s.u.JobLogger] job 3253 started
+[2019-03-08 08:09:05,162 0-thread-3 INFO             o.o.p.s.u.JobLogger] job 3253 finished tasks 1, total tasks 1, finished true
+
+================ Task 3253t0 logs =================
+[2019-03-08 08:09:01,148 38/RM_NODE INFO      o.o.p.r.s.SelectionManager] &quot;admin&quot; (pnp://cdc2921c4807:64738/Node1523093755/ActiveObject_org.ow2.proactive.scheduler.core.rmproxies.RMProxyActiveObject_32902) requested 1 nodes with ArbitraryTopologyDescriptor and will get 1 nodes  [totalNumberOfAliveNodesRightNow:3;freeNodes:2;filteredNodes:2;reordered after policy:2;selection script present:false;nodes filtered by selection script:2;selectedNodes:1]
+[2019-03-08 08:09:01,221 lingThread INFO            o.o.p.s.u.TaskLogger] task 3253t0 (simple_task) creating forked task launcher
+[2019-03-08 08:09:01,345 lingThread INFO            o.o.p.s.u.TaskLogger] task 3253t0 (simple_task) started on cdc2921c4807(node: local-LocalNodes-0_2)
+[2019-03-08 08:09:01,346 lingThread INFO            o.o.p.s.u.TaskLogger] task 3253t0 (simple_task) task started 3253t0
+[2019-03-08 08:09:05,015 0-thread-3 INFO            o.o.p.s.u.TaskLogger] task 3253t0 (simple_task) finished without errors
+
+Waiting for job with id : 3253 to have one of the following statuses : [[KILLED, FINISHED, STALLED, CANCELED, FAILED]], got : KILLED
+================= Job 3254 logs =================
+[2019-03-08 08:09:01,517 1523093755 INFO             o.o.p.s.u.JobLogger] job 3254 submitted: name 'ps-workflow', tasks '1', owner 'admin'
+[2019-03-08 08:09:01,646 lingThread INFO             o.o.p.s.u.JobLogger] job 3254 started
+[2019-03-08 08:09:05,190 0-thread-2 INFO             o.o.p.s.u.JobLogger] job 3254 finished tasks 1, total tasks 1, finished true
+
+================ Task 3254t0 logs =================
+[2019-03-08 08:09:01,544 38/RM_NODE INFO      o.o.p.r.s.SelectionManager] &quot;admin&quot; (pnp://cdc2921c4807:64738/Node1523093755/ActiveObject_org.ow2.proactive.scheduler.core.rmproxies.RMProxyActiveObject_32902) requested 1 nodes with ArbitraryTopologyDescriptor and will get 1 nodes  [totalNumberOfAliveNodesRightNow:3;freeNodes:1;filteredNodes:1;reordered after policy:1;selection script present:false;nodes filtered by selection script:1;selectedNodes:1]
+[2019-03-08 08:09:01,582 lingThread INFO            o.o.p.s.u.TaskLogger] task 3254t0 (simple_task) creating forked task launcher
+[2019-03-08 08:09:01,642 lingThread INFO            o.o.p.s.u.TaskLogger] task 3254t0 (simple_task) started on cdc2921c4807(node: local-LocalNodes-0_0)
+[2019-03-08 08:09:01,642 lingThread INFO            o.o.p.s.u.TaskLogger] task 3254t0 (simple_task) task started 3254t0
+[2019-03-08 08:09:05,003 0-thread-2 INFO            o.o.p.s.u.TaskLogger] task 3254t0 (simple_task) finished without errors
+
+Waiting for job with id : 3254 to have one of the following statuses : [[KILLED, FINISHED, STALLED, CANCELED, FAILED]], got : KILLED
+AbstractSchedulerRestTest::Delete job with id: 3252
+AbstractSchedulerRestTest::Delete job with id: 3253
+AbstractSchedulerRestTest::Delete job with id: 3254
+AbstractSchedulerRestTest::Delete job with id: 3255
+Waiting for job with id : 3255 to have one of the following statuses : [[KILLED, FINISHED, STALLED, CANCELED, FAILED]], got : KILLED
+AbstractSchedulerRestTest::Delete job with id: 3256
+Waiting for job with id : 3256 to have one of the following statuses : [[KILLED, FINISHED, STALLED, CANCELED, FAILED]], got : KILLED
+AbstractSchedulerRestTest::Delete job with id: 3257
+Waiting for job with id : 3257 to have one of the following statuses : [[KILLED, FINISHED, STALLED, CANCELED, FAILED]], got : KILLED
+AbstractSchedulerRestTest::Delete job with id: 3255
+AbstractSchedulerRestTest::Delete job with id: 3256
+AbstractSchedulerRestTest::Delete job with id: 3257
+================= Job 3258 logs =================
+[2019-03-08 08:09:13,776 1523093755 INFO             o.o.p.s.u.JobLogger] job 3258 submitted: name 'systest-simple_task', tasks '1', owner 'admin'
+[2019-03-08 08:09:13,869 lingThread INFO             o.o.p.s.u.JobLogger] job 3258 started
+
+================ Task 3258t0 logs =================
+[2019-03-08 08:09:13,791 38/RM_NODE INFO      o.o.p.r.s.SelectionManager] &quot;admin&quot; (pnp://cdc2921c4807:64738/Node1523093755/ActiveObject_org.ow2.proactive.scheduler.core.rmproxies.RMProxyActiveObject_32902) requested 1 nodes with ArbitraryTopologyDescriptor and will get 1 nodes  [totalNumberOfAliveNodesRightNow:3;freeNodes:3;filteredNodes:3;reordered after policy:3;selection script present:false;nodes filtered by selection script:3;selectedNodes:1]
+[2019-03-08 08:09:13,812 lingThread INFO            o.o.p.s.u.TaskLogger] task 3258t0 (simple_task) creating forked task launcher
+[2019-03-08 08:09:13,868 lingThread INFO            o.o.p.s.u.TaskLogger] task 3258t0 (simple_task) started on cdc2921c4807(node: local-LocalNodes-0_2)
+[2019-03-08 08:09:13,868 lingThread INFO            o.o.p.s.u.TaskLogger] task 3258t0 (simple_task) task started 3258t0
+
+Waiting for job with id : 3258 to have one of the following statuses : [[KILLED, FINISHED, STALLED, CANCELED, FAILED]], got : KILLED
+================= Job 3259 logs =================
+[2019-03-08 08:09:13,934 1523093755 INFO             o.o.p.s.u.JobLogger] job 3259 submitted: name 'echo-workflow', tasks '1', owner 'admin'
+[2019-03-08 08:09:14,126 lingThread INFO             o.o.p.s.u.JobLogger] job 3259 started
+
+================ Task 3259t0 logs =================
+[2019-03-08 08:09:13,981 38/RM_NODE INFO      o.o.p.r.s.SelectionManager] &quot;admin&quot; (pnp://cdc2921c4807:64738/Node1523093755/ActiveObject_org.ow2.proactive.scheduler.core.rmproxies.RMProxyActiveObject_32902) requested 1 nodes with ArbitraryTopologyDescriptor and will get 1 nodes  [totalNumberOfAliveNodesRightNow:3;freeNodes:2;filteredNodes:2;reordered after policy:2;selection script present:false;nodes filtered by selection script:2;selectedNodes:1]
+[2019-03-08 08:09:14,058 lingThread INFO            o.o.p.s.u.TaskLogger] task 3259t0 (simple_task) creating forked task launcher
+[2019-03-08 08:09:14,124 lingThread INFO            o.o.p.s.u.TaskLogger] task 3259t0 (simple_task) started on cdc2921c4807(node: local-LocalNodes-0_0)
+[2019-03-08 08:09:14,125 lingThread INFO            o.o.p.s.u.TaskLogger] task 3259t0 (simple_task) task started 3259t0
+
+Waiting for job with id : 3259 to have one of the following statuses : [[KILLED, FINISHED, STALLED, CANCELED, FAILED]], got : KILLED
+================= Job 3260 logs =================
+[2019-03-08 08:09:14,180 1523093755 INFO             o.o.p.s.u.JobLogger] job 3260 submitted: name 'ps-workflow', tasks '1', owner 'admin'
+[2019-03-08 08:09:14,287 lingThread INFO             o.o.p.s.u.JobLogger] job 3260 started
+[2019-03-08 08:09:16,137 0-thread-3 INFO             o.o.p.s.u.JobLogger] job 3260 finished tasks 1, total tasks 1, finished true
+
+================ Task 3260t0 logs =================
+[2019-03-08 08:09:14,200 38/RM_NODE INFO      o.o.p.r.s.SelectionManager] &quot;admin&quot; (pnp://cdc2921c4807:64738/Node1523093755/ActiveObject_org.ow2.proactive.scheduler.core.rmproxies.RMProxyActiveObject_32902) requested 1 nodes with ArbitraryTopologyDescriptor and will get 1 nodes  [totalNumberOfAliveNodesRightNow:3;freeNodes:1;filteredNodes:1;reordered after policy:1;selection script present:false;nodes filtered by selection script:1;selectedNodes:1]
+[2019-03-08 08:09:14,226 lingThread INFO            o.o.p.s.u.TaskLogger] task 3260t0 (simple_task) creating forked task launcher
+[2019-03-08 08:09:14,286 lingThread INFO            o.o.p.s.u.TaskLogger] task 3260t0 (simple_task) started on cdc2921c4807(node: local-LocalNodes-0_1)
+[2019-03-08 08:09:14,286 lingThread INFO            o.o.p.s.u.TaskLogger] task 3260t0 (simple_task) task started 3260t0
+[2019-03-08 08:09:16,095 0-thread-3 INFO            o.o.p.s.u.TaskLogger] task 3260t0 (simple_task) finished without errors
+
+Waiting for job with id : 3260 to have one of the following statuses : [[KILLED, FINISHED, STALLED, CANCELED, FAILED]], got : KILLED
+AbstractSchedulerRestTest::Delete job with id: 3258
+AbstractSchedulerRestTest::Delete job with id: 3259
+AbstractSchedulerRestTest::Delete job with id: 3260
+================= Job 3261 logs =================
+[2019-03-08 08:09:18,487 1523093755 INFO             o.o.p.s.u.JobLogger] job 3261 submitted: name 'systest-simple_task', tasks '1', owner 'admin'
+[2019-03-08 08:09:18,553 lingThread INFO             o.o.p.s.u.JobLogger] job 3261 started
+
+================ Task 3261t0 logs =================
+[2019-03-08 08:09:18,501 38/RM_NODE INFO      o.o.p.r.s.SelectionManager] &quot;admin&quot; (pnp://cdc2921c4807:64738/Node1523093755/ActiveObject_org.ow2.proactive.scheduler.core.rmproxies.RMProxyActiveObject_32902) requested 1 nodes with ArbitraryTopologyDescriptor and will get 1 nodes  [totalNumberOfAliveNodesRightNow:3;freeNodes:3;filteredNodes:3;reordered after policy:3;selection script present:false;nodes filtered by selection script:3;selectedNodes:1]
+[2019-03-08 08:09:18,518 lingThread INFO            o.o.p.s.u.TaskLogger] task 3261t0 (simple_task) creating forked task launcher
+[2019-03-08 08:09:18,552 lingThread INFO            o.o.p.s.u.TaskLogger] task 3261t0 (simple_task) started on cdc2921c4807(node: local-LocalNodes-0_0)
+[2019-03-08 08:09:18,552 lingThread INFO            o.o.p.s.u.TaskLogger] task 3261t0 (simple_task) task started 3261t0
+
+Waiting for job with id : 3261 to have one of the following statuses : [[KILLED, FINISHED, STALLED, CANCELED, FAILED]], got : KILLED
+================= Job 3262 logs =================
+[2019-03-08 08:09:18,635 1523093755 INFO             o.o.p.s.u.JobLogger] job 3262 submitted: name 'echo-workflow', tasks '1', owner 'admin'
+[2019-03-08 08:09:18,724 lingThread INFO             o.o.p.s.u.JobLogger] job 3262 started
+
+================ Task 3262t0 logs =================
+[2019-03-08 08:09:18,647 38/RM_NODE INFO      o.o.p.r.s.SelectionManager] &quot;admin&quot; (pnp://cdc2921c4807:64738/Node1523093755/ActiveObject_org.ow2.proactive.scheduler.core.rmproxies.RMProxyActiveObject_32902) requested 1 nodes with ArbitraryTopologyDescriptor and will get 1 nodes  [totalNumberOfAliveNodesRightNow:3;freeNodes:2;filteredNodes:2;reordered after policy:2;selection script present:false;nodes filtered by selection script:2;selectedNodes:1]
+[2019-03-08 08:09:18,670 lingThread INFO            o.o.p.s.u.TaskLogger] task 3262t0 (simple_task) creating forked task launcher
+[2019-03-08 08:09:18,722 lingThread INFO            o.o.p.s.u.TaskLogger] task 3262t0 (simple_task) started on cdc2921c4807(node: local-LocalNodes-0_2)
+[2019-03-08 08:09:18,723 lingThread INFO            o.o.p.s.u.TaskLogger] task 3262t0 (simple_task) task started 3262t0
+
+Waiting for job with id : 3262 to have one of the following statuses : [[KILLED, FINISHED, STALLED, CANCELED, FAILED]], got : KILLED
+================= Job 3263 logs =================
+[2019-03-08 08:09:18,809 1523093755 INFO             o.o.p.s.u.JobLogger] job 3263 submitted: name 'ps-workflow', tasks '1', owner 'admin'
+[2019-03-08 08:09:18,962 lingThread INFO             o.o.p.s.u.JobLogger] job 3263 started
+[2019-03-08 08:09:20,959 0-thread-1 INFO             o.o.p.s.u.JobLogger] job 3263 finished tasks 1, total tasks 1, finished true
+
+================ Task 3263t0 logs =================
+[2019-03-08 08:09:18,830 38/RM_NODE INFO      o.o.p.r.s.SelectionManager] &quot;admin&quot; (pnp://cdc2921c4807:64738/Node1523093755/ActiveObject_org.ow2.proactive.scheduler.core.rmproxies.RMProxyActiveObject_32902) requested 1 nodes with ArbitraryTopologyDescriptor and will get 1 nodes  [totalNumberOfAliveNodesRightNow:3;freeNodes:1;filteredNodes:1;reordered after policy:1;selection script present:false;nodes filtered by selection script:1;selectedNodes:1]
+[2019-03-08 08:09:18,857 lingThread INFO            o.o.p.s.u.TaskLogger] task 3263t0 (simple_task) creating forked task launcher
+[2019-03-08 08:09:18,952 lingThread INFO            o.o.p.s.u.TaskLogger] task 3263t0 (simple_task) started on cdc2921c4807(node: local-LocalNodes-0_1)
+[2019-03-08 08:09:18,953 lingThread INFO            o.o.p.s.u.TaskLogger] task 3263t0 (simple_task) task started 3263t0
+[2019-03-08 08:09:20,918 0-thread-1 INFO            o.o.p.s.u.TaskLogger] task 3263t0 (simple_task) finished without errors
+
+Waiting for job with id : 3263 to have one of the following statuses : [[KILLED, FINISHED, STALLED, CANCELED, FAILED]], got : KILLED
+AbstractSchedulerRestTest::Delete job with id: 3261
+AbstractSchedulerRestTest::Delete job with id: 3262
+AbstractSchedulerRestTest::Delete job with id: 3263
+AbstractSchedulerRestTest::Delete job with id: 3264
+Waiting for job with id : 3264 to have one of the following statuses : [[KILLED, FINISHED, STALLED, CANCELED, FAILED]], got : KILLED
+AbstractSchedulerRestTest::Delete job with id: 3265
+Waiting for job with id : 3265 to have one of the following statuses : [[KILLED, FINISHED, STALLED, CANCELED, FAILED]], got : KILLED
+AbstractSchedulerRestTest::Delete job with id: 3266
+Waiting for job with id : 3266 to have one of the following statuses : [[KILLED, FINISHED, STALLED, CANCELED, FAILED]], got : KILLED
+AbstractSchedulerRestTest::Delete job with id: 3264
+AbstractSchedulerRestTest::Delete job with id: 3265
+AbstractSchedulerRestTest::Delete job with id: 3266
+================= Job 3267 logs =================
+[2019-03-08 08:09:27,700 1523093755 INFO             o.o.p.s.u.JobLogger] job 3267 submitted: name 'systest-simple_task', tasks '1', owner 'admin'
+[2019-03-08 08:09:27,752 lingThread INFO             o.o.p.s.u.JobLogger] job 3267 started
+
+================ Task 3267t0 logs =================
+[2019-03-08 08:09:27,716 38/RM_NODE INFO      o.o.p.r.s.SelectionManager] &quot;admin&quot; (pnp://cdc2921c4807:64738/Node1523093755/ActiveObject_org.ow2.proactive.scheduler.core.rmproxies.RMProxyActiveObject_32902) requested 1 nodes with ArbitraryTopologyDescriptor and will get 1 nodes  [totalNumberOfAliveNodesRightNow:3;freeNodes:3;filteredNodes:3;reordered after policy:3;selection script present:false;nodes filtered by selection script:3;selectedNodes:1]
+[2019-03-08 08:09:27,729 lingThread INFO            o.o.p.s.u.TaskLogger] task 3267t0 (simple_task) creating forked task launcher
+[2019-03-08 08:09:27,752 lingThread INFO            o.o.p.s.u.TaskLogger] task 3267t0 (simple_task) started on cdc2921c4807(node: local-LocalNodes-0_1)
+[2019-03-08 08:09:27,752 lingThread INFO            o.o.p.s.u.TaskLogger] task 3267t0 (simple_task) task started 3267t0
+
+Waiting for job with id : 3267 to have one of the following statuses : [[KILLED, FINISHED, STALLED, CANCELED, FAILED]], got : KILLED
+================= Job 3268 logs =================
+[2019-03-08 08:09:27,843 1523093755 INFO             o.o.p.s.u.JobLogger] job 3268 submitted: name 'echo-workflow', tasks '1', owner 'admin'
+[2019-03-08 08:09:27,915 lingThread INFO             o.o.p.s.u.JobLogger] job 3268 started
+
+================ Task 3268t0 logs =================
+[2019-03-08 08:09:27,860 38/RM_NODE INFO      o.o.p.r.s.SelectionManager] &quot;admin&quot; (pnp://cdc2921c4807:64738/Node1523093755/ActiveObject_org.ow2.proactive.scheduler.core.rmproxies.RMProxyActiveObject_32902) requested 1 nodes with ArbitraryTopologyDescriptor and will get 1 nodes  [totalNumberOfAliveNodesRightNow:3;freeNodes:2;filteredNodes:2;reordered after policy:2;selection script present:false;nodes filtered by selection script:2;selectedNodes:1]
+[2019-03-08 08:09:27,870 lingThread INFO            o.o.p.s.u.TaskLogger] task 3268t0 (simple_task) creating forked task launcher
+[2019-03-08 08:09:27,904 lingThread INFO            o.o.p.s.u.TaskLogger] task 3268t0 (simple_task) started on cdc2921c4807(node: local-LocalNodes-0_0)
+[2019-03-08 08:09:27,913 lingThread INFO            o.o.p.s.u.TaskLogger] task 3268t0 (simple_task) task started 3268t0
+
+Waiting for job with id : 3268 to have one of the following statuses : [[KILLED, FINISHED, STALLED, CANCELED, FAILED]], got : KILLED
+================= Job 3269 logs =================
+[2019-03-08 08:09:27,987 1523093755 INFO             o.o.p.s.u.JobLogger] job 3269 submitted: name 'ps-workflow', tasks '1', owner 'admin'
+[2019-03-08 08:09:28,085 lingThread INFO             o.o.p.s.u.JobLogger] job 3269 started
+[2019-03-08 08:09:29,935 0-thread-4 INFO             o.o.p.s.u.JobLogger] job 3269 finished tasks 1, total tasks 1, finished true
+
+================ Task 3269t0 logs =================
+[2019-03-08 08:09:28,005 38/RM_NODE INFO      o.o.p.r.s.SelectionManager] &quot;admin&quot; (pnp://cdc2921c4807:64738/Node1523093755/ActiveObject_org.ow2.proactive.scheduler.core.rmproxies.RMProxyActiveObject_32902) requested 1 nodes with ArbitraryTopologyDescriptor and will get 1 nodes  [totalNumberOfAliveNodesRightNow:3;freeNodes:1;filteredNodes:1;reordered after policy:1;selection script present:false;nodes filtered by selection script:1;selectedNodes:1]
+[2019-03-08 08:09:28,032 lingThread INFO            o.o.p.s.u.TaskLogger] task 3269t0 (simple_task) creating forked task launcher
+[2019-03-08 08:09:28,062 lingThread INFO            o.o.p.s.u.TaskLogger] task 3269t0 (simple_task) started on cdc2921c4807(node: local-LocalNodes-0_2)
+[2019-03-08 08:09:28,062 lingThread INFO            o.o.p.s.u.TaskLogger] task 3269t0 (simple_task) task started 3269t0
+[2019-03-08 08:09:29,889 0-thread-4 INFO            o.o.p.s.u.TaskLogger] task 3269t0 (simple_task) finished without errors
+
+Waiting for job with id : 3269 to have one of the following statuses : [[KILLED, FINISHED, STALLED, CANCELED, FAILED]], got : KILLED
+AbstractSchedulerRestTest::Delete job with id: 3267
+AbstractSchedulerRestTest::Delete job with id: 3268
+AbstractSchedulerRestTest::Delete job with id: 3269
+================= Job 3270 logs =================
+[2019-03-08 08:09:32,167 1523093755 INFO             o.o.p.s.u.JobLogger] job 3270 submitted: name 'systest-simple_task', tasks '1', owner 'admin'
+[2019-03-08 08:09:32,263 lingThread INFO             o.o.p.s.u.JobLogger] job 3270 started
+
+================ Task 3270t0 logs =================
+[2019-03-08 08:09:32,187 38/RM_NODE INFO      o.o.p.r.s.SelectionManager] &quot;admin&quot; (pnp://cdc2921c4807:64738/Node1523093755/ActiveObject_org.ow2.proactive.scheduler.core.rmproxies.RMProxyActiveObject_32902) requested 1 nodes with ArbitraryTopologyDescriptor and will get 1 nodes  [totalNumberOfAliveNodesRightNow:3;freeNodes:3;filteredNodes:3;reordered after policy:3;selection script present:false;nodes filtered by selection script:3;selectedNodes:1]
+[2019-03-08 08:09:32,204 lingThread INFO            o.o.p.s.u.TaskLogger] task 3270t0 (simple_task) creating forked task launcher
+[2019-03-08 08:09:32,246 lingThread INFO            o.o.p.s.u.TaskLogger] task 3270t0 (simple_task) started on cdc2921c4807(node: local-LocalNodes-0_2)
+[2019-03-08 08:09:32,247 lingThread INFO            o.o.p.s.u.TaskLogger] task 3270t0 (simple_task) task started 3270t0
+
+Waiting for job with id : 3270 to have one of the following statuses : [[KILLED, FINISHED, STALLED, CANCELED, FAILED]], got : KILLED
+================= Job 3271 logs =================
+[2019-03-08 08:09:32,313 1523093755 INFO             o.o.p.s.u.JobLogger] job 3271 submitted: name 'echo-workflow', tasks '1', owner 'admin'
+[2019-03-08 08:09:32,416 lingThread INFO             o.o.p.s.u.JobLogger] job 3271 started
+
+================ Task 3271t0 logs =================
+[2019-03-08 08:09:32,339 38/RM_NODE INFO      o.o.p.r.s.SelectionManager] &quot;admin&quot; (pnp://cdc2921c4807:64738/Node1523093755/ActiveObject_org.ow2.proactive.scheduler.core.rmproxies.RMProxyActiveObject_32902) requested 1 nodes with ArbitraryTopologyDescriptor and will get 1 nodes  [totalNumberOfAliveNodesRightNow:3;freeNodes:2;filteredNodes:2;reordered after policy:2;selection script present:false;nodes filtered by selection script:2;selectedNodes:1]
+[2019-03-08 08:09:32,355 lingThread INFO            o.o.p.s.u.TaskLogger] task 3271t0 (simple_task) creating forked task launcher
+[2019-03-08 08:09:32,411 lingThread INFO            o.o.p.s.u.TaskLogger] task 3271t0 (simple_task) started on cdc2921c4807(node: local-LocalNodes-0_0)
+[2019-03-08 08:09:32,411 lingThread INFO            o.o.p.s.u.TaskLogger] task 3271t0 (simple_task) task started 3271t0
+
+Waiting for job with id : 3271 to have one of the following statuses : [[KILLED, FINISHED, STALLED, CANCELED, FAILED]], got : KILLED
+================= Job 3272 logs =================
+[2019-03-08 08:09:32,464 1523093755 INFO             o.o.p.s.u.JobLogger] job 3272 submitted: name 'ps-workflow', tasks '1', owner 'admin'
+[2019-03-08 08:09:32,637 lingThread INFO             o.o.p.s.u.JobLogger] job 3272 started
+[2019-03-08 08:09:34,539 0-thread-2 INFO             o.o.p.s.u.JobLogger] job 3272 finished tasks 1, total tasks 1, finished true
+
+================ Task 3272t0 logs =================
+[2019-03-08 08:09:32,498 38/RM_NODE INFO      o.o.p.r.s.SelectionManager] &quot;admin&quot; (pnp://cdc2921c4807:64738/Node1523093755/ActiveObject_org.ow2.proactive.scheduler.core.rmproxies.RMProxyActiveObject_32902) requested 1 nodes with ArbitraryTopologyDescriptor and will get 1 nodes  [totalNumberOfAliveNodesRightNow:3;freeNodes:1;filteredNodes:1;reordered after policy:1;selection script present:false;nodes filtered by selection script:1;selectedNodes:1]
+[2019-03-08 08:09:32,538 lingThread INFO            o.o.p.s.u.TaskLogger] task 3272t0 (simple_task) creating forked task launcher
+[2019-03-08 08:09:32,632 lingThread INFO            o.o.p.s.u.TaskLogger] task 3272t0 (simple_task) started on cdc2921c4807(node: local-LocalNodes-0_1)
+[2019-03-08 08:09:32,632 lingThread INFO            o.o.p.s.u.TaskLogger] task 3272t0 (simple_task) task started 3272t0
+[2019-03-08 08:09:34,500 0-thread-2 INFO            o.o.p.s.u.TaskLogger] task 3272t0 (simple_task) finished without errors
+
+Waiting for job with id : 3272 to have one of the following statuses : [[KILLED, FINISHED, STALLED, CANCELED, FAILED]], got : KILLED
+AbstractSchedulerRestTest::Delete job with id: 3270
+AbstractSchedulerRestTest::Delete job with id: 3271
+AbstractSchedulerRestTest::Delete job with id: 3272
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Mar 08, 2019 9:08:57 AM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Mar 08, 2019 9:08:57 AM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+Mar 08, 2019 9:08:57 AM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+Mar 08, 2019 9:08:57 AM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+Mar 08, 2019 9:08:57 AM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1d27a7b, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3bad2a06, org.springframework.test.context.support.DirtiesContextTestExecutionListener@ef815aa]
+Mar 08, 2019 9:08:57 AM org.springframework.context.support.GenericApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.GenericApplicationContext@c492bd6: startup date [Fri Mar 08 09:08:57 CET 2019]; root of context hierarchy
+Mar 08, 2019 9:08:57 AM org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor &lt;init&gt;
+INFO: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.5</a> at 08-Mar-2019 09:09:36</p>
+</div>
+</div>
+</body>
+</html>

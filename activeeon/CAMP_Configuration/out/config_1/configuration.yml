@@ -1,0 +1,12 @@
+instances:
+  databasepg_0:
+    configuration:
+      version: DB-postgres
+    definition: databasePG
+    service_providers: []
+  proactivepg_0:
+    configuration:
+      version: PA-postgres
+    definition: proactivePG
+    service_providers:
+    - databasepg_0

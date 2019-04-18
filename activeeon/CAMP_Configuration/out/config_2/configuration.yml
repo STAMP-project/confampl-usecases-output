@@ -1,0 +1,12 @@
+instances:
+  databasems_0:
+    configuration:
+      version: DB-mysql
+    definition: databaseMS
+    service_providers: []
+  proactivems_0:
+    configuration:
+      version: PA-mysql
+    definition: proactiveMS
+    service_providers:
+    - databasems_0
